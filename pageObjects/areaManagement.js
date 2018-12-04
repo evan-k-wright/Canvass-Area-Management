@@ -9,5 +9,16 @@ module.exports = {
             password: 'input[placeHolder="Password"]',
             salesHub: 'div[class="current-app"]',
             username: 'input[placeHolder="Username"]',
+
+        //select area
+            canvassArea: 'a[href="/canvass/area"]',
+            provo: 'option[value="137"]',
+
+            //xpath
+                areas: {
+                    selector: '(//h1)[1]',
+                    locateStrategy: 'xpath'
+                },
+
     }
 }

@@ -22,5 +22,10 @@ module.exports = {
                 .waitForElementVisible('@canvassApp', 5000)
                 .click('@canvassApp')
                 .waitForElementVisible('@canvass', 5000) 
+
+            //select area 
+                .waitForElementVisible('@canvassArea', 5000)
+                .click('@canvassArea')
+                .waitForElementVisible('@areas', 5000)
     }
 }
