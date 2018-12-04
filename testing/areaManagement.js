@@ -23,19 +23,19 @@ module.exports = {
                 .click('@canvassApp')
                 .waitForElementVisible('@canvass', 5000) 
 
-            //select area 
+            //adding area by zip
                 .waitForElementVisible('@canvassArea', 5000)
                 .click('@canvassArea')
                 .waitForElementVisible('@areas', 5000)
-                .api.pause(5000)
-                areaManagement.click('@provo')
-                .waitForElementVisible('@testArea2', 10000)
-                .click('@testArea2')
-
-            //adding area by zip
                 .waitForElementVisible('@newAreaZip', 5000)
                 .click('@newAreaZip')
-                .api.setAlertText(data.zipCode)
+                .setAlertText(data.zipCode)
+
+            //select area
+                // .api.pause(5000)
+                // areaManagement.click('@provo')
+                // .waitForElementVisible('@testArea2', 10000)
+                // .click('@testArea2')
 
 
     }
