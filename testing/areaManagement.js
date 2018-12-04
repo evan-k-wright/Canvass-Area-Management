@@ -33,6 +33,10 @@ module.exports = {
                 .click('@testArea2')
 
             //adding area by zip
-                
+                .waitForElementVisible('@newAreaZip', 5000)
+                .click('@newAreaZip')
+                .api.setAlertText(data.zipCode)
+
+
     }
 }

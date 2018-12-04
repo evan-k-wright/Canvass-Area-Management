@@ -26,6 +26,7 @@ module.exports = {
                 },
 
         //adding area by zip
+                newAreaZip: 'a[id="drawZipArea"]',
                 
     }
 }
