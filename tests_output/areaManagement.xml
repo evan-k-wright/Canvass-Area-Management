@@ -5,9 +5,9 @@
 
   <testsuite name="areaManagement"
     errors="1" failures="0" hostname="" id="" package="areaManagement" skipped="0"
-    tests="1" time="0.01100" timestamp="Tue, 04 Dec 2018 19:19:51 GMT">
+    tests="1" time="0.01200" timestamp="Tue, 04 Dec 2018 19:51:09 GMT">
   
-    <testcase name="Area Management" classname="areaManagement" time="0.01100" assertions="0">
+    <testcase name="Area Management" classname="areaManagement" time="0.01200" assertions="0">
     </testcase>
   
 
@@ -15,8 +15,8 @@
     <system-err>
         Error while running [Area Management / Area Management]:
 
-  TypeError: areaManagement.navigate(...).waitForElementVisible(...).waitForElementVisible(...).waitForElementVisible(...).setValue(...).setValue(...).setValue(...).waitForElementVisible(...).click(...).waitForElementVisible(...).click(...).waitForElementVisible(...).click(...).waitForElementVisible(...).waitForElementVisible(...).click(...).waitForElementVisible(...).click(...).waitForElementVisible(...).click(...).setAlertText is not a function
-    at Object.Area Management (/Users/evanwright/Desktop/Automation/salesHub/canvass/areaManagment/testing/areaManagement.js:33:18)
+  TypeError: Cannot read property &#39;acceptAlert&#39; of undefined
+    at Object.Area Management (/Users/evanwright/Desktop/Automation/salesHub/canvass/areaManagment/testing/areaManagement.js:34:21)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
