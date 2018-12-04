@@ -27,9 +27,10 @@ module.exports = {
                 .waitForElementVisible('@canvassArea', 5000)
                 .click('@canvassArea')
                 .waitForElementVisible('@areas', 5000)
+                .click('@provo')
                 .waitForElementVisible('@newAreaZip', 5000)
                 .click('@newAreaZip')
-                .setAlertText(data.zipCode)
+                .api.setAlertText('840104')
 
             //select area
                 // .api.pause(5000)

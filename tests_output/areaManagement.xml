@@ -5,9 +5,9 @@
 
   <testsuite name="areaManagement"
     errors="1" failures="0" hostname="" id="" package="areaManagement" skipped="0"
-    tests="1" time="0.01600" timestamp="Tue, 04 Dec 2018 19:10:50 GMT">
+    tests="1" time="0.01100" timestamp="Tue, 04 Dec 2018 19:19:51 GMT">
   
-    <testcase name="Area Management" classname="areaManagement" time="0.01600" assertions="0">
+    <testcase name="Area Management" classname="areaManagement" time="0.01100" assertions="0">
     </testcase>
   
 
@@ -15,10 +15,8 @@
     <system-err>
         Error while running [Area Management / Area Management]:
 
-  Error: neaAreaZip was not found in &#34;areaManagement&#34;. Available elements: canvassApp,canvass,companyURL,loginButton,password,salesHub,username,canvassArea,provo,areas,testArea2,newAreaZip
-    at getElement (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:13:13)
-    at Page.waitForElementVisible (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:81:32)
-    at Object.Area Management (/Users/evanwright/Desktop/Automation/salesHub/canvass/areaManagment/testing/areaManagement.js:36:18)
+  TypeError: areaManagement.navigate(...).waitForElementVisible(...).waitForElementVisible(...).waitForElementVisible(...).setValue(...).setValue(...).setValue(...).waitForElementVisible(...).click(...).waitForElementVisible(...).click(...).waitForElementVisible(...).click(...).waitForElementVisible(...).waitForElementVisible(...).click(...).waitForElementVisible(...).click(...).waitForElementVisible(...).click(...).setAlertText is not a function
+    at Object.Area Management (/Users/evanwright/Desktop/Automation/salesHub/canvass/areaManagment/testing/areaManagement.js:33:18)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
@@ -26,6 +24,8 @@
     at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
     at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
     at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
     </system-err>
   
 
