@@ -30,7 +30,7 @@ module.exports = {
                 .click('@provo')
                 .waitForElementVisible('@newAreaZip', 5000)
                 .click('@newAreaZip')
-                .api.setAlertText('840104')
+                .api.setAlertText('84104')
 
             //select area
                 // .api.pause(5000)
