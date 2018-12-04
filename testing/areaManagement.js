@@ -2,7 +2,7 @@ const data = require('../sources/data')
 
 module.exports = {
     after: browser => {
-        browser.end()
+        browser
     },
 
     'Area Management': (browser) => {
@@ -27,5 +27,12 @@ module.exports = {
                 .waitForElementVisible('@canvassArea', 5000)
                 .click('@canvassArea')
                 .waitForElementVisible('@areas', 5000)
+                .api.pause(5000)
+                areaManagement.click('@provo')
+                .waitForElementVisible('@testArea2', 10000)
+                .click('@testArea2')
+
+            //adding area by zip
+                
     }
 }

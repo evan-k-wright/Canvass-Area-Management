@@ -20,5 +20,12 @@ module.exports = {
                     locateStrategy: 'xpath'
                 },
 
+                testArea2: {
+                    selector: '//span[.="Test Area 2"]',
+                    locateStrategy: 'xpath'
+                },
+
+        //adding area by zip
+                
     }
 }
