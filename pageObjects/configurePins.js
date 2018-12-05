@@ -11,8 +11,9 @@ module.exports = {
             username: 'input[placeHolder="Username"]',
 
         //pins
+            canvassArea: 'a[href="/canvass/area"]',
             pinsList: 'div[id="expandPinsList"]',
-
+            updatePins: 'a[id="loadPins"]',
 
             //xpath
                 notHome: {
@@ -20,6 +21,9 @@ module.exports = {
                     locateStrategy: 'xpath'
                 },
 
-                
+                lgcy: {
+                    selector: '(//input[@type="checkbox"])[7]',
+                    locateStrategy: 'xpath'
+                },
     }
 }
