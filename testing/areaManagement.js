@@ -38,7 +38,7 @@ module.exports = {
                 .waitForElementVisible('@areas', 5000)
                 .api.pause(5000)
                 areaManagement.click('@provo')
-                // .waitForElementVisible('@testArea2', 10000)
-                // .click('@testArea2')
+                .waitForElementVisible('@testArea2', 10000)
+                .click('@testArea2')
     }
 }
