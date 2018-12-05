@@ -5,11 +5,9 @@
 
   <testsuite name="areaManagement"
     errors="0" failures="0" hostname="" id="" package="areaManagement" skipped="0"
-    tests="1" time="10.29" timestamp="Wed, 05 Dec 2018 15:31:11 GMT">
+    tests="1" time="7.746" timestamp="Wed, 05 Dec 2018 15:52:01 GMT">
   
-    <testcase name="Area Management" classname="areaManagement" time="10.29" assertions="10">
-
-    
+    <testcase name="Area Management" classname="areaManagement" time="7.746" assertions="9">
 
     
 
