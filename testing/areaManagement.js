@@ -24,20 +24,20 @@ module.exports = {
                 .waitForElementVisible('@canvass', 5000) 
 
             //adding area by zip
+                // .waitForElementVisible('@canvassArea', 5000)
+                // .click('@canvassArea')
+                // .waitForElementVisible('@areas', 5000)
+                // .click('@provo')
+                // .waitForElementVisible('@newAreaZip', 5000)
+                // .click('@newAreaZip')
+                // .api.keys(["8", "4", "1", "0", "4"])
+
+            //select area
                 .waitForElementVisible('@canvassArea', 5000)
                 .click('@canvassArea')
                 .waitForElementVisible('@areas', 5000)
                 .click('@provo')
-                .waitForElementVisible('@newAreaZip', 5000)
-                .click('@newAreaZip')
-                .api.keys(["8", "4", "1", "0", "4"])
-
-            //select area
-                // .api.pause(5000)
-                // areaManagement.click('@provo')
-                // .waitForElementVisible('@testArea2', 10000)
-                // .click('@testArea2')
-
-
+                .waitForElementVisible('@testArea2', 10000)
+                .click('@testArea2')
     }
 }

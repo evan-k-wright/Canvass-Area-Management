@@ -26,7 +26,14 @@ module.exports = {
                 },
 
         //adding area by zip
-                newAreaZip: 'a[id="drawZipArea"]',
-                
+            canvassArea: 'a[href="/canvass/area"]',
+            newAreaZip: 'a[id="drawZipArea"]',
+            provo: 'option[value="137"]',
+
+            //xpath
+                areas: {
+                    selector: '(//h1)[1]',
+                    locateStrategy: 'xpath'
+                },
     }
 }
