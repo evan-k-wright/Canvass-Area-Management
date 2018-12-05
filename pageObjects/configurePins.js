@@ -16,13 +16,23 @@ module.exports = {
             updatePins: 'a[id="loadPins"]',
 
             //xpath
-                notHome: {
-                    selector: '(//input[@type="checkbox"])[3]',
+                emptyLotPin:{
+                    selector: '(//div[@class="circle-annotation interaction-notHome"])[1]',
                     locateStrategy: 'xpath'
                 },
 
                 lgcy: {
                     selector: '(//input[@type="checkbox"])[7]',
+                    locateStrategy: 'xpath'
+                },
+
+                lgcyPowerPin: {
+                    selector: '(//div[@class="circle-annotation interaction-lgcy"])[2]',
+                    locateStrategy: 'xpath'
+                },
+
+                notHome: {
+                    selector: '(//input[@type="checkbox"])[3]',
                     locateStrategy: 'xpath'
                 },
     }

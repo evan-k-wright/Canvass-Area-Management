@@ -35,5 +35,12 @@ module.exports = {
                 .click('@lgcy')
                 .waitForElementVisible('@updatePins', 5000)
                 .click('@updatePins')
+                .waitForElementVisible('@lgcyPowerPin', 5000)
+                .waitForElementVisible('@emptyLotPin', 5000)
+                .click('@notHome')
+                .click('@lgcy')
+                .click('@updatePins')
+                .api.pause(500)
+                .acceptAlert()
     }
 }
