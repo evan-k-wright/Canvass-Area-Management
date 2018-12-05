@@ -10,6 +10,16 @@ module.exports = {
             salesHub: 'div[class="current-app"]',
             username: 'input[placeHolder="Username"]',
 
-        
+        //pins
+            pinsList: 'div[id="expandPinsList"]',
+
+
+            //xpath
+                notHome: {
+                    selector: '(//input[@type="checkbox"])[3]',
+                    locateStrategy: 'xpath'
+                },
+
+                
     }
 }
