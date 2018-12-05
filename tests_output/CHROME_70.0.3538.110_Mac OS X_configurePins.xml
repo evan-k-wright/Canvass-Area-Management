@@ -5,9 +5,11 @@
 
   <testsuite name="configurePins"
     errors="0" failures="0" hostname="" id="" package="configurePins" skipped="0"
-    tests="1" time="10.60" timestamp="Wed, 05 Dec 2018 16:42:07 GMT">
+    tests="1" time="14.74" timestamp="Wed, 05 Dec 2018 16:58:49 GMT">
   
-    <testcase name="Configure Pins" classname="configurePins" time="10.60" assertions="11">
+    <testcase name="Configure Pins" classname="configurePins" time="14.74" assertions="12">
+
+    
 
     
 

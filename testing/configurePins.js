@@ -26,11 +26,14 @@ module.exports = {
             //pins
                 .waitForElementVisible('@canvassArea', 5000)
                 .click('@canvassArea')
-                .waitForElementVisible('@pinsList', 5000)
+                .api.pause(5000)
+                configurePins.waitForElementVisible('@pinsList', 5000)
                 .click('@pinsList')
                 .waitForElementVisible('@notHome', 5000)
                 .waitForElementVisible('@lgcy', 5000)
                 .click('@notHome')
                 .click('@lgcy')
+                .waitForElementVisible('@updatePins', 5000)
+                .click('@updatePins')
     }
 }
