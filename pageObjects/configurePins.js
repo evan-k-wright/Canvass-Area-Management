@@ -16,24 +16,24 @@ module.exports = {
             updatePins: 'a[id="loadPins"]',
 
             //xpath
-                emptyLotPin:{
-                    selector: '(//div[@class="circle-annotation interaction-notHome"])[1]',
+                followUp: {
+                    selector: '(//input[@type="checkbox"])[12]',
                     locateStrategy: 'xpath'
                 },
 
-                lgcy: {
-                    selector: '(//input[@type="checkbox"])[7]',
+                followUpPin: {
+                    selector: '(//div[@class="circle-annotation interaction-follow_up"])[18]',
+                    locateStrategy: 'xPath'
+                },
+
+                sale: {
+                    selector: '(//input[@type="checkbox"])[11]',
                     locateStrategy: 'xpath'
                 },
 
-                lgcyPowerPin: {
-                    selector: '(//div[@class="circle-annotation interaction-lgcy"])[2]',
-                    locateStrategy: 'xpath'
-                },
-
-                notHome: {
-                    selector: '(//input[@type="checkbox"])[3]',
-                    locateStrategy: 'xpath'
+                salePin: {
+                    selector: '(//div[@class="circle-annotation interaction-solar_sale"])[14]',
+                    locateStrategy: 'xPath'
                 },
     }
 }
