@@ -21,19 +21,19 @@ module.exports = {
                     locateStrategy: 'xpath'
                 },
 
-                followUpPin: {
-                    selector: '(//div[@class="circle-annotation interaction-follow_up"])[18]',
-                    locateStrategy: 'xPath'
-                },
+                // followUpPin: {
+                //     selector: '(//div[@class="circle-annotation interaction-follow_up"])[18]',
+                //     locateStrategy: 'xPath'
+                // },
 
                 sale: {
                     selector: '(//input[@type="checkbox"])[11]',
                     locateStrategy: 'xpath'
                 },
 
-                salePin: {
-                    selector: '(//div[@class="circle-annotation interaction-solar_sale"])[14]',
-                    locateStrategy: 'xPath'
-                },
+                // salePin: {
+                //     selector: '(//div[@class="circle-annotation interaction-solar_sale"])[14]',
+                //     locateStrategy: 'xPath'
+                // },
     }
 }
