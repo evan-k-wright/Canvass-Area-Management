@@ -40,6 +40,6 @@ module.exports = {
                 .click('@000Testing')
                 .waitForElementVisible('@evansArea', 10000)
                 .click('@evansArea')
-                .waitForElementVisible('@areaTitle', 5000)
+                .waitForElementPresent('@areaTitle', 5000)
     }
 }

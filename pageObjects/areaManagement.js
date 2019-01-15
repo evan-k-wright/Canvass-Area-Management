@@ -11,6 +11,7 @@ module.exports = {
             username: 'input[placeHolder="Username"]',
 
         //select area
+            areaTitle: 'h1[id="areaName"]', 
             canvassArea: 'a[href="/canvass/area"]',
             "000Testing": 'option[value="127"]',
             evansArea: 'tr[data-name="evan\'s area"]',
@@ -19,11 +20,6 @@ module.exports = {
                 areas: {
                     selector: '(//h1)[1]',
                     locateStrategy: 'xpath'
-                },
-
-                areaTitle: {
-                    selector: '(//h1)[2]',
-                    locateStrategy: 'xPath'
                 },
 
                 // testArea2: {
