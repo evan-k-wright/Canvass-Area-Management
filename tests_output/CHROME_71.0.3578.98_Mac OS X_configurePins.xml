@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="configurePins"
+    errors="0" failures="1" hostname="" id="" package="configurePins" skipped="0"
+    tests="1" time="19.38" timestamp="Tue, 15 Jan 2019 19:27:58 GMT">
+  
+    <testcase name="Configure Pins" classname="configurePins" time="19.38" assertions="13">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;(//div[@class=&#34;circle-annotation interaction-lgcy&#34;])[2]&gt; to be visible for 5000 milliseconds.">    at Object.Configure Pins (/Users/evanwright/Desktop/automation/salesHub/canvass/areaManagment/testing/configurePins.js:38:18)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

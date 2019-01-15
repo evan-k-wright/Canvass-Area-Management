@@ -1,5 +1,5 @@
 module.exports = {
-    url: 'https://admin.saleshub.io/users/login',
+    url: 'http://admin.salesos.info/users/login',
     elements: {
         //login
             canvassApp: 'a[class="enabled app-canvass"]',
@@ -12,7 +12,7 @@ module.exports = {
 
         //select area
             canvassArea: 'a[href="/canvass/area"]',
-            provo: 'option[value="137"]',
+            "000Testing": 'option[value="127"]',
 
             //xpath
                 areas: {
@@ -28,7 +28,7 @@ module.exports = {
         //adding area by zip
             canvassArea: 'a[href="/canvass/area"]',
             newAreaZip: 'a[id="drawZipArea"]',
-            provo: 'option[value="137"]',
+            "000Testing": 'option[value="127"]',
 
             //xpath
                 areas: {

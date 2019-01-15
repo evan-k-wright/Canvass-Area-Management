@@ -27,7 +27,7 @@ module.exports = {
                 // .waitForElementVisible('@canvassArea', 5000)
                 // .click('@canvassArea')
                 // .waitForElementVisible('@areas', 5000)
-                // .click('@provo')
+                // .click('@p000Testing')
                 // .waitForElementVisible('@newAreaZip', 5000)
                 // .click('@newAreaZip')
                 // .api.keys(["8", "4", "1", "0", "4"])
@@ -37,7 +37,7 @@ module.exports = {
                 .click('@canvassArea')
                 .waitForElementVisible('@areas', 5000)
                 .api.pause(5000)
-                areaManagement.click('@provo')
+                areaManagement.click('@000Testing')
                 .waitForElementVisible('@testArea2', 10000)
                 .click('@testArea2')
     }
