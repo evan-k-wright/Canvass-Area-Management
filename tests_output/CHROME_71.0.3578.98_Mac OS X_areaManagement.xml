@@ -5,9 +5,9 @@
 
   <testsuite name="areaManagement"
     errors="0" failures="1" hostname="" id="" package="areaManagement" skipped="0"
-    tests="1" time="32.11" timestamp="Tue, 15 Jan 2019 19:27:26 GMT">
+    tests="1" time="23.56" timestamp="Tue, 15 Jan 2019 22:21:40 GMT">
   
-    <testcase name="Area Management" classname="areaManagement" time="32.11" assertions="10">
+    <testcase name="Area Management" classname="areaManagement" time="23.56" assertions="10">
 
     
 
@@ -25,7 +25,7 @@
 
     
 
-      <failure message="Timed out while waiting for element &lt;//span[.=&#34;Test Area 2&#34;]&gt; to be present for 10000 milliseconds.">    at Object.Area Management (/Users/evanwright/Desktop/automation/salesHub/canvass/areaManagment/testing/areaManagement.js:41:18)</failure>
+      <failure message="Timed out while waiting for element &lt;tr[data-name=&#34;evan&#39;s area&#34;]&gt; to be present for 10000 milliseconds.">    at Object.Area Management (/Users/evanwright/Desktop/automation/salesHub/canvass/areaManagment/testing/areaManagement.js:41:18)</failure>
 
     
     </testcase>

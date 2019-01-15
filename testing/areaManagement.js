@@ -36,9 +36,10 @@ module.exports = {
                 .waitForElementVisible('@canvassArea', 5000)
                 .click('@canvassArea')
                 .waitForElementVisible('@areas', 5000)
-                .api.pause(5000)
-                areaManagement.click('@000Testing')
-                .waitForElementVisible('@testArea2', 10000)
-                .click('@testArea2')
+                
+                .click('@000Testing')
+                .waitForElementVisible('@evansArea', 10000)
+                .click('@evansArea')
+                .waitForElementVisible('@areaTitle', 5000)
     }
 }

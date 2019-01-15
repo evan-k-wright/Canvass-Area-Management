@@ -13,6 +13,7 @@ module.exports = {
         //select area
             canvassArea: 'a[href="/canvass/area"]',
             "000Testing": 'option[value="127"]',
+            evansArea: 'tr[data-name="evan\'s area"]',
 
             //xpath
                 areas: {
@@ -20,10 +21,15 @@ module.exports = {
                     locateStrategy: 'xpath'
                 },
 
-                testArea2: {
-                    selector: '//span[.="Test Area 2"]',
-                    locateStrategy: 'xpath'
+                areaTitle: {
+                    selector: '(//h1)[2]',
+                    locateStrategy: 'xPath'
                 },
+
+                // testArea2: {
+                //     selector: '//span[.="Test Area 2"]',
+                //     locateStrategy: 'xpath'
+                // },
 
         //adding area by zip
             canvassArea: 'a[href="/canvass/area"]',
