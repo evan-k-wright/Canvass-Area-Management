@@ -27,7 +27,9 @@ module.exports = {
             .waitForElementVisible('@areaMang', 5000)
             .click('@areaMang')
             .waitForElementVisible('@drawAreaZip', 5000)
-            .click('@drawAreaZip')
-            .api.setAlertText("84043")
+            .api.pause(5000)
+            pomAddAreaZip.click('@drawAreaZip')
+            .api.pause(5000)
+            .keys('8', '4', '0', '4', '3')
     }
 }
