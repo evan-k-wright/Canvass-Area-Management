@@ -5,9 +5,9 @@
 
   <testsuite name="configurePins"
     errors="1" failures="0" hostname="" id="" package="configurePins" skipped="0"
-    tests="1" time="0.01200" timestamp="Wed, 16 Jan 2019 17:33:33 GMT">
+    tests="1" time="0.01300" timestamp="Wed, 16 Jan 2019 17:39:23 GMT">
   
-    <testcase name="Configure Pins" classname="configurePins" time="0.01200" assertions="0">
+    <testcase name="Configure Pins" classname="configurePins" time="0.01300" assertions="0">
     </testcase>
   
 
@@ -15,8 +15,8 @@
     <system-err>
         Error while running [Configure Pins / Configure Pins]:
 
-  ReferenceError: api is not defined
-    at Object.Configure Pins (/Users/evanwright/Desktop/automation/salesHub/canvass/areaManagment/testing/configurePins.js:36:17)
+  TypeError: configurePins.navigate(...).waitForElementVisible(...).waitForElementVisible(...).waitForElementVisible(...).setValue(...).setValue(...).setValue(...).waitForElementVisible(...).click(...).waitForElementVisible(...).click(...).waitForElementVisible(...).click(...).waitForElementVisible(...).waitForElementVisible(...).click(...).waitForElementVisible(...).click(...).waitForElementVisible(...).waitForElementVisible(...).click(...).click(...).waitForElementVisible(...).click(...).waitForElementVisible(...).waitForElementVisible(...).click(...).click(...).click(...).acceptAlert is not a function
+    at Object.Configure Pins (/Users/evanwright/Desktop/automation/salesHub/canvass/areaManagment/testing/configurePins.js:42:18)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
