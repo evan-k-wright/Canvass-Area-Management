@@ -5,9 +5,9 @@
 
   <testsuite name="configurePins"
     errors="1" failures="0" hostname="" id="" package="configurePins" skipped="0"
-    tests="1" time="0.01100" timestamp="Wed, 16 Jan 2019 16:09:16 GMT">
+    tests="1" time="0.01200" timestamp="Wed, 16 Jan 2019 17:33:33 GMT">
   
-    <testcase name="Configure Pins" classname="configurePins" time="0.01100" assertions="0">
+    <testcase name="Configure Pins" classname="configurePins" time="0.01200" assertions="0">
     </testcase>
   
 
@@ -15,10 +15,8 @@
     <system-err>
         Error while running [Configure Pins / Configure Pins]:
 
-  Error: salePin was not found in &#34;configurePins&#34;. Available elements: canvassApp,canvass,companyURL,loginButton,password,salesHub,username,canvassArea,pinsList,updatePins,followUp,sale
-    at getElement (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:13:13)
-    at Page.waitForElementVisible (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:81:32)
-    at Object.Configure Pins (/Users/evanwright/Desktop/automation/salesHub/canvass/areaManagment/testing/configurePins.js:37:18)
+  ReferenceError: api is not defined
+    at Object.Configure Pins (/Users/evanwright/Desktop/automation/salesHub/canvass/areaManagment/testing/configurePins.js:36:17)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
@@ -26,6 +24,8 @@
     at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
     at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
     at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
     </system-err>
   
 
