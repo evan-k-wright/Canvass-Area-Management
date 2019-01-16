@@ -29,7 +29,6 @@ module.exports = {
             .waitForElementVisible('@drawAreaZip', 5000)
             .api.pause(1000)
             pomAddAreaZip.click('@drawAreaZip')
-            .api.mouseButtonClick('middle')
-            .keys(8, 4, 0, 4, 3)
+            .api.keys(8, 4, 0, 4, 3)
     }
 }
