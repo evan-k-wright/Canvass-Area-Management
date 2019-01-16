@@ -2,7 +2,7 @@ const data = require('../sources/data')
 
 module.exports = {
     after: browser => {
-        browser.end()
+        browser
     },
 
     'Configure Pins': browser => {
@@ -34,8 +34,8 @@ module.exports = {
                 .click('@followUp')
                 .waitForElementVisible('@updatePins', 5000)
                 .click('@updatePins')
-                //.waitForElementVisible('@salePin', 5000)
-                //.waitForElementVisible('followUpPin', 5000)
+                .waitForElementVisible('@salePin', 5000)
+                .waitForElementVisible('followUpPin', 5000)
                 .click('@sale')
                 .click('@followUp')
                 .click('@updatePins')

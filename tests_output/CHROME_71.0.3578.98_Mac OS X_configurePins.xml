@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="1">
 
   <testsuite name="configurePins"
-    errors="0" failures="0" hostname="" id="" package="configurePins" skipped="0"
-    tests="1" time="11.80" timestamp="Tue, 15 Jan 2019 23:05:53 GMT">
+    errors="0" failures="1" hostname="" id="" package="configurePins" skipped="0"
+    tests="1" time="14.88" timestamp="Wed, 16 Jan 2019 16:10:05 GMT">
   
-    <testcase name="Configure Pins" classname="configurePins" time="11.80" assertions="12">
+    <testcase name="Configure Pins" classname="configurePins" time="14.88" assertions="13">
 
     
 
@@ -30,6 +30,8 @@
     
 
     
+
+      <failure message="Timed out while waiting for element &lt;(//div[@class=&#34;circle-annotation interaction-solar_sale&#34;])[14]&gt; to be present for 5000 milliseconds.">    at Object.Configure Pins (/Users/evanwright/Desktop/automation/salesHub/canvass/areaManagment/testing/configurePins.js:37:18)</failure>
 
     
     </testcase>
