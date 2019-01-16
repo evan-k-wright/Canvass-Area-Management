@@ -30,6 +30,6 @@ module.exports = {
                 .click('@area')
                 .waitForElementPresent('@edit', 5000)
                 .click('@edit')
-                .api.setAlertText('Test Area 4')
+                .api.setAlertText()
     }
 }

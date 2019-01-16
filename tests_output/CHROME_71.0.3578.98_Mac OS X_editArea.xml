@@ -5,9 +5,9 @@
 
   <testsuite name="editArea"
     errors="0" failures="0" hostname="" id="" package="editArea" skipped="0"
-    tests="1" time="9.926" timestamp="Wed, 16 Jan 2019 18:53:03 GMT">
+    tests="1" time="9.920" timestamp="Wed, 16 Jan 2019 19:17:22 GMT">
   
-    <testcase name="Edit Area" classname="editArea" time="9.926" assertions="10">
+    <testcase name="Edit Area" classname="editArea" time="9.920" assertions="10">
 
     
 
