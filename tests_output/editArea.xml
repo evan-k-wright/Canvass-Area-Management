@@ -5,9 +5,9 @@
 
   <testsuite name="editArea"
     errors="1" failures="0" hostname="" id="" package="editArea" skipped="0"
-    tests="1" time="0.01100" timestamp="Wed, 16 Jan 2019 18:35:42 GMT">
+    tests="1" time="0.01200" timestamp="Wed, 16 Jan 2019 18:40:21 GMT">
   
-    <testcase name="Edit Area" classname="editArea" time="0.01100" assertions="0">
+    <testcase name="Edit Area" classname="editArea" time="0.01200" assertions="0">
     </testcase>
   
 
@@ -15,10 +15,10 @@
     <system-err>
         Error while running [Edit Area / Edit Area]:
 
-  Error: area was not found in &#34;pomEditArea&#34;. Available elements: canvassApp,canvass,companyURL,loginButton,password,salesHub,username
+  Error: eidt was not found in &#34;pomEditArea&#34;. Available elements: canvassApp,canvass,companyURL,loginButton,password,salesHub,username,area,edit
     at getElement (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:13:13)
-    at Page.waitForElementVisible (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:81:32)
-    at Object.Edit Area (/Users/evanwright/Desktop/automation/salesHub/canvass/areaManagment/testing/editArea.js:27:18)
+    at Page.click (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:81:32)
+    at Object.Edit Area (/Users/evanwright/Desktop/automation/salesHub/canvass/areaManagment/testing/editArea.js:30:18)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
