@@ -29,7 +29,8 @@ module.exports = {
                 .waitForElementVisible('@area', 5000)
                 .click('@area')
                 .waitForElementPresent('@edit', 5000)
-                .click('@edit')
-                .api.setAlertText()
+                .api.pause(500)
+                pomEditArea.click('@edit')
+                .value = (T, e, s, t)
     }
 }
