@@ -5,9 +5,9 @@
 
   <testsuite name="editArea"
     errors="1" failures="0" hostname="" id="" package="editArea" skipped="0"
-    tests="1" time="0.01200" timestamp="Wed, 16 Jan 2019 19:19:48 GMT">
+    tests="1" time="0.01100" timestamp="Wed, 16 Jan 2019 19:49:48 GMT">
   
-    <testcase name="Edit Area" classname="editArea" time="0.01200" assertions="0">
+    <testcase name="Edit Area" classname="editArea" time="0.01100" assertions="0">
     </testcase>
   
 
@@ -15,8 +15,8 @@
     <system-err>
         Error while running [Edit Area / Edit Area]:
 
-  TypeError: pomEditArea.navigate(...).waitForElementVisible(...).waitForElementVisible(...).waitForElementVisible(...).setValue(...).setValue(...).setValue(...).waitForElementVisible(...).click(...).waitForElementVisible(...).click(...).waitForElementVisible(...).click(...).waitForElementVisible(...).waitForElementVisible(...).click(...).waitForElementVisible(...).click(...).waitForElementPresent(...).click(...).api.clearAlertText is not a function
-    at Object.Edit Area (/Users/evanwright/Desktop/automation/salesHub/canvass/areaManagment/testing/editArea.js:33:22)
+  TypeError: pomEditArea.waitForElementVisable is not a function
+    at Object.Edit Area (/Users/evanwright/Desktop/automation/salesHub/canvass/areaManagment/testing/editArea.js:39:29)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)

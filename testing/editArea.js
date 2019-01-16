@@ -31,6 +31,11 @@ module.exports = {
                 .waitForElementPresent('@edit', 5000)
                 .api.pause(500)
                 pomEditArea.click('@edit')
-                .value = (T, e, s, t)
+                .api.setAlertText("Test Area 4")
+                .acceptAlert()
+                pomEditArea.waitForElementVisible('@back', 5000)
+                .click('@back')
+                .api.refresh()
+                pomEditArea.waitForElementVisible('@newAreaName', 5000)
     }
 }

@@ -13,6 +13,8 @@ module.exports = {
         //edit area
         area: 'tr[data-name="4 rep test"]',
         areaMang: 'a[href="/canvass/area"]',
+        back: 'a[class="back"]',
         edit: 'a[class="edit"]',
+        newAreaName: 'tr[data-name="test area 4"]',
     }
 }
