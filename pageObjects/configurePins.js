@@ -12,7 +12,9 @@ module.exports = {
 
         //pins
             canvassArea: 'a[href="/canvass/area"]',
+            followUpPin: 'div[aria-label="1489 N 2400 ST W , LEHI, UT 84043"]',
             pinsList: 'div[id="expandPinsList"]',
+            salePin: 'div[aria-label="2410 W 1400 ST N , LEHI, UT 84043"]',
             updatePins: 'a[id="loadPins"]',
 
             //xpath
@@ -21,19 +23,10 @@ module.exports = {
                     locateStrategy: 'xpath'
                 },
 
-                followUpPin: {
-                    selector: '(//div[@class="circle-annotation interaction-follow_up"])[18]',
-                    locateStrategy: 'xPath'
-                },
-
                 sale: {
                     selector: '(//input[@type="checkbox"])[11]',
                     locateStrategy: 'xpath'
                 },
 
-                salePin: {
-                    selector: '(//div[@class="circle-annotation interaction-solar_sale"])[14]',
-                    locateStrategy: 'xPath'
-                },
     }
 }
