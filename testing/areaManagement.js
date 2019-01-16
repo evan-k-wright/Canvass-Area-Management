@@ -23,15 +23,6 @@
 //                 .click('@canvassApp')
 //                 .waitForElementVisible('@canvass', 5000) 
 
-//             //adding area by zip
-//                 // .waitForElementVisible('@canvassArea', 5000)
-//                 // .click('@canvassArea')
-//                 // .waitForElementVisible('@areas', 5000)
-//                 // .click('@p000Testing')
-//                 // .waitForElementVisible('@newAreaZip', 5000)
-//                 // .click('@newAreaZip')
-//                 // .api.keys(["8", "4", "1", "0", "4"])
-
 //             //select area
 //                 .waitForElementVisible('@canvassArea', 5000)
 //                 .click('@canvassArea')
