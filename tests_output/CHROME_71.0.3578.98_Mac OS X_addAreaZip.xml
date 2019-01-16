@@ -5,9 +5,9 @@
 
   <testsuite name="addAreaZip"
     errors="0" failures="0" hostname="" id="" package="addAreaZip" skipped="0"
-    tests="1" time="13.28" timestamp="Wed, 16 Jan 2019 20:13:54 GMT">
+    tests="1" time="31.34" timestamp="Wed, 16 Jan 2019 20:17:19 GMT">
   
-    <testcase name="Edit Area" classname="addAreaZip" time="13.28" assertions="9">
+    <testcase name="Edit Area" classname="addAreaZip" time="31.34" assertions="9">
 
     
 
