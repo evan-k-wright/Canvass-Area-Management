@@ -6,7 +6,7 @@ module.exports = {
     },
 
     'Edit Area': browser => {
-        let pomEditArea = browser.page.pomEditArea
+        let pomEditArea = browser.page.pomEditArea()
         pomEditArea.navigate()
             //login
                 .waitForElementVisible('@companyURL', 5000)

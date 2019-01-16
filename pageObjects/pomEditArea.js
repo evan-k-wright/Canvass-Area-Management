@@ -10,6 +10,8 @@ module.exports = {
             salesHub: 'div[class="current-app"]',
             username: 'input[placeHolder="Username"]',
 
-            
+        //edit area
+        area: 'tr[data-name="4 rep test"]',
+        edit: 'a[class="edit"]',
     }
 }
