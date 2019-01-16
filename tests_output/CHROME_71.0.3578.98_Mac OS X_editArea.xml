@@ -1,41 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
+<testsuites errors="1"
             failures="0"
             tests="1">
 
-  <testsuite name="configurePins"
-    errors="0" failures="0" hostname="" id="" package="configurePins" skipped="0"
-    tests="1" time="12.41" timestamp="Wed, 16 Jan 2019 18:32:31 GMT">
+  <testsuite name="editArea"
+    errors="1" failures="0" hostname="" id="" package="editArea" skipped="0"
+    tests="1" time="0.004000" timestamp="Wed, 16 Jan 2019 18:32:43 GMT">
   
-    <testcase name="Configure Pins" classname="configurePins" time="12.41" assertions="14">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase name="Edit Area" classname="editArea" time="0.004000" assertions="0">
     </testcase>
   
 

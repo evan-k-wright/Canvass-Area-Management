@@ -2,7 +2,7 @@ const data = require('../sources/data')
 
 module.exports = {
     after: browser => {
-        browser.end()
+        browser
     },
 
     'Edit Area': browser => {
@@ -26,6 +26,9 @@ module.exports = {
             //edit area
                 .waitForElementVisible('@area', 5000)
                 .click('@area')
-                
+                .waitForElementVisible('@edit', 5000)
+                .click('@eidt')
+                .api.setAlertText(data.newName)
+
     }
 }
