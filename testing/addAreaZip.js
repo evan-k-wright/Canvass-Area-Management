@@ -6,8 +6,8 @@ module.exports = {
     },
 
     'Edit Area': browser => {
-        let pomEditArea = browser.page.pomEditArea()
-        pomEditArea.navigate()
+        let pomAddAreaZip = browser.page.pomAddAreaZip()
+        pomAddAreaZip.navigate()
             //login
                 .waitForElementVisible('@companyURL', 5000)
                 .waitForElementVisible('@username', 5000)
