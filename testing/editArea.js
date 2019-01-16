@@ -28,7 +28,7 @@ module.exports = {
                 .click('@areaMang')
                 .waitForElementVisible('@area', 5000)
                 .click('@area')
-                .waitForElementVisible('@edit', 5000)
+                .waitForElementPresent('@edit', 5000)
                 .click('@edit')
                 .api.setAlertText(data.newName)
 
