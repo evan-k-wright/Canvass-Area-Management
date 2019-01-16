@@ -5,14 +5,14 @@
 
   <testsuite name="editArea"
     errors="0" failures="0" hostname="" id="" package="editArea" skipped="0"
-    tests="0" time="0.000" timestamp="Wed, 16 Jan 2019 20:02:40 GMT">
+    tests="0" time="0.000" timestamp="Wed, 16 Jan 2019 20:03:39 GMT">
   
 
   
     <system-err>
         Error while running [Add Area Zip / Edit Area]:
 
-  Error: drawAreaZip was not found in &#34;pomEditArea&#34;. Available elements: canvassApp,canvass,companyURL,loginButton,password,salesHub,username,area,areaMang,back,edit,newAreaName
+  Error: drawAreaZip was not found in &#34;pomAddAreaZip&#34;. Available elements: canvassApp,canvass,companyURL,loginButton,password,salesHub,username,areaMang
     at getElement (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:13:13)
     at Page.waitForElementVisible (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:81:32)
     at Object.Edit Area (/Users/evanwright/Desktop/automation/salesHub/canvass/areaManagment/testing/addAreaZip.js:29:14)

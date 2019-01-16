@@ -1,4 +1,16 @@
-13:02:40.381 INFO [GridLauncherV3.launch] - Selenium build info: version: '3.14.0', revision: 'aacccce0'
-13:02:40.385 INFO [GridLauncherV3$1.launch] - Launching a standalone Selenium Server on port 4445
-2019-01-16 13:02:40.543:INFO::main: Logging initialized @468ms to org.seleniumhq.jetty9.util.log.StdErrLog
-13:02:40.720 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4445
+13:04:47.432 INFO [GridLauncherV3.launch] - Selenium build info: version: '3.14.0', revision: 'aacccce0'
+13:04:47.436 INFO [GridLauncherV3$1.launch] - Launching a standalone Selenium Server on port 4445
+2019-01-16 13:04:47.607:INFO::main: Logging initialized @479ms to org.seleniumhq.jetty9.util.log.StdErrLog
+13:04:47.776 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4445
+13:04:48.092 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "chrome",
+  "javascriptEnabled": true,
+  "name": "Add Area Zip"
+}
+13:04:48.094 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5) on port 15499
+Only local connections are allowed.
+13:04:49.651 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+13:04:49.943 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session c68ec358c6483d7878be82d1a83abc87 (org.openqa.selenium.chrome.ChromeDriverService)
+13:05:18.383 INFO [ActiveSessions$1.onStop] - Removing session c68ec358c6483d7878be82d1a83abc87 (org.openqa.selenium.chrome.ChromeDriverService)

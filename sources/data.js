@@ -8,8 +8,6 @@ module.exports = {
         addAreaName:'84043 - Testing',
         zipCode: '84043',
 
-
     //edit area
-        drawAreaZip: 'a[id="drawZipArea"]',
         newName: 'Test Area 4',
     }

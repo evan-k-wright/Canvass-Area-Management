@@ -12,5 +12,6 @@ module.exports = {
 
         //add area
             areaMang: 'a[href="/canvass/area"]',
+            drawAreaZip: 'a[id="drawZipArea"]',
     }
 }

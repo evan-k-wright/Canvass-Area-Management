@@ -26,7 +26,7 @@ module.exports = {
             //add area
             .waitForElementVisible('@areaMang', 5000)
             .click('@areaMang')
-            .waitForElementVisible('@drawAreaZip')
+            .waitForElementVisible('@drawAreaZip', 5000)
             .click('@drawAreaZip')
             .api.setAlertText("84043")
     }
