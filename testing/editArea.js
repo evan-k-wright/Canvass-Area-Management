@@ -24,13 +24,13 @@ module.exports = {
                 .waitForElementVisible('@canvass', 5000) 
 
             //edit area
-                .waitForElementVisible('@canvassArea', 5000)
-                .click('@canvassArea')
-                // .waitForElementVisible('@area', 5000)
-                // .click('@area')
-                // .waitForElementVisible('@edit', 5000)
-                // .click('@edit')
-                // .api.setAlertText(data.newName)
+                .waitForElementVisible('@areaMang', 5000)
+                .click('@areaMang')
+                .waitForElementVisible('@area', 5000)
+                .click('@area')
+                .waitForElementVisible('@edit', 5000)
+                .click('@edit')
+                .api.setAlertText(data.newName)
 
     }
 }

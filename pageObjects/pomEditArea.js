@@ -12,7 +12,7 @@ module.exports = {
 
         //edit area
         area: 'tr[data-name="4 rep test"]',
-        areMang: 'a[href="/canvass/area"]',
+        areaMang: 'a[href="/canvass/area"]',
         edit: 'a[class="edit"]',
     }
 }
