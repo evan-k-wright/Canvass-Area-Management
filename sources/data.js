@@ -7,6 +7,8 @@ module.exports = {
     //add area by zip
         zipCode: '84104',
 
-    //edit name
-        editName: 'Test Area 4', 
+    //edit area
+        area: 'tr[data-name="4 rep test"]',
+        edit: 'a[class="edit"]',
+        newName: 'Test Area 4',
     }
