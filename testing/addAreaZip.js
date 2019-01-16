@@ -5,7 +5,7 @@ module.exports = {
         browser
     },
 
-    'Add Area by Zip Code': browser => {
+    'Add Area by Zip Code': browser => { 
         let pomAddAreaZip = browser.page.pomAddAreaZip()
         pomAddAreaZip.navigate()
             //login
@@ -24,11 +24,11 @@ module.exports = {
                 .waitForElementVisible('@canvass', 5000) 
 
             //add area
-            .waitForElementVisible('@areaMang', 5000)
-            .click('@areaMang')
-            .waitForElementVisible('@drawAreaZip', 5000)
-            .api.pause(1000)
-            pomAddAreaZip.click('@drawAreaZip')
-            .api.keys(8, 4, 0, 4, 3)
+                .waitForElementVisible('@areaMang', 5000)
+                .click('@areaMang')
+                .waitForElementVisible('@drawAreaZip', 5000)
+                .api.pause(1000)
+                pomAddAreaZip.click('@drawAreaZip')
+                .api.keys(8, 4, 0, 4, 3)
     }
 }
