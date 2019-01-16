@@ -5,7 +5,7 @@ module.exports = {
         browser
     },
 
-    'Edit Area': browser => {
+    'Add Area by Zip Code': browser => {
         let pomAddAreaZip = browser.page.pomAddAreaZip()
         pomAddAreaZip.navigate()
             //login
