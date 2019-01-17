@@ -13,6 +13,7 @@ module.exports = {
         //remove rep
             area: 'span[class="area-name"]',
             areaMang: 'a[href="/canvass/area"]', 
+            fourRep: 'tr[data-id="6270"]',
             removerep: 'a[class="remove-rep"]',
 
     }
