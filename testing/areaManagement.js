@@ -6,8 +6,8 @@
 //     },
 
 //     'Area Management': (browser) => {
-//         let areaManagement = browser.page.areaManagement()
-//         areaManagement.navigate()
+//         let pomAreaManagement = browser.page.pomAreaManagement()
+//         pomAreaManagement.navigate()
 //             //login
 //                 .waitForElementVisible('@companyURL', 5000)
 //                 .waitForElementVisible('@username', 5000)

@@ -6,8 +6,8 @@
 //     },
 
 //     'Configure Pins': browser => {
-//         let configurePins = browser.page.configurePins()
-//         configurePins.navigate()
+//         let pomConfigurePins = browser.page.pomConfigurePins()
+//         pomConfigurePins.navigate()
 //             //login
 //                 .waitForElementVisible('@companyURL', 5000)
 //                 .waitForElementVisible('@username', 5000)
