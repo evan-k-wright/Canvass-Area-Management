@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="assignRep"
+    errors="0" failures="1" hostname="" id="" package="assignRep" skipped="0"
+    tests="1" time="12.67" timestamp="Thu, 17 Jan 2019 19:25:26 GMT">
+  
+    <testcase name="Area Management" classname="assignRep" time="12.67" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;span[class=&#34;area-name&#34;]&gt; to be present for 5000 milliseconds.">    at Object.Area Management (/Users/evanwright/Desktop/automation/salesHub/canvass/areaManagment/testing/assignRep.js:27:18)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

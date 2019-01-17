@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
+<testsuites errors="1"
             failures="0"
-            tests="0">
+            tests="1">
 
-  <testsuite name="addAreaZip"
-    errors="0" failures="0" hostname="" id="" package="addAreaZip" skipped="0"
-    tests="0" time="0.000" timestamp="Thu, 17 Jan 2019 19:24:11 GMT">
+  <testsuite name="assignRep"
+    errors="1" failures="0" hostname="" id="" package="assignRep" skipped="0"
+    tests="1" time="0.01900" timestamp="Thu, 17 Jan 2019 19:24:11 GMT">
+  
+    <testcase name="Area Management" classname="assignRep" time="0.01900" assertions="0">
+    </testcase>
   
 
   

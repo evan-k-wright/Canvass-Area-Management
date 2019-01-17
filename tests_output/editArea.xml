@@ -5,15 +5,17 @@
 
   <testsuite name="editArea"
     errors="0" failures="0" hostname="" id="" package="editArea" skipped="0"
-    tests="0" time="0.000" timestamp="Thu, 17 Jan 2019 19:22:45 GMT">
+    tests="0" time="0.000" timestamp="Thu, 17 Jan 2019 19:24:11 GMT">
   
 
   
     <system-err>
-        Error while running [Assigning / Area Management]:
+        Error while running [Assign Rep / Area Management]:
 
-  TypeError: browser.page.pomAssigning is not a function
-    at Object.Area Management (/Users/evanwright/Desktop/automation/salesHub/canvass/areaManagment/testing/assigning.js:9:41)
+  Error: removeRep was not found in &#34;pomAssignRep&#34;. Available elements: canvassApp,canvass,companyURL,loginButton,password,salesHub,username,area,areaMang,fourRep,removerep
+    at getElement (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:13:13)
+    at Page.waitForElementVisible (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:81:32)
+    at Object.Area Management (/Users/evanwright/Desktop/automation/salesHub/canvass/areaManagment/testing/assignRep.js:29:18)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
@@ -21,8 +23,6 @@
     at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
     at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
     at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-    at process._tickCallback (internal/process/next_tick.js:61:11)
     </system-err>
   
 

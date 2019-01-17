@@ -24,6 +24,8 @@ module.exports = {
                 .waitForElementVisible('@canvass', 5000) 
 
             //remove rep
+                .waitForElementVisible('@areaMang')
+                .click('@areaMang')
                 .waitForElementVisible('@area', 5000)
                 .click('@area')
                 .waitForElementVisible('@removeRep', 5000)

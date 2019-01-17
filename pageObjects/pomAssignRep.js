@@ -14,7 +14,6 @@ module.exports = {
             area: 'span[class="area-name"]',
             areaMang: 'a[href="/canvass/area"]', 
             fourRep: 'tr[data-id="6270"]',
-            removerep: 'a[class="remove-rep"]',
-
+            removeRep: 'a[class="remove-rep"]',
     }
 }
