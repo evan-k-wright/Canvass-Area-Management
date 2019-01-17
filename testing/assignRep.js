@@ -29,7 +29,7 @@ module.exports = {
                 .waitForElementVisible('@area', 5000)
                 .click('@area')
                 .waitForElementVisible('@removeRep', 5000)
-                .click('removeRep')
+                .click('@removeRep')
                 .api.acceptAlert()
                 .waitForElementNotPresent('@fourRep', 5000)
     }
