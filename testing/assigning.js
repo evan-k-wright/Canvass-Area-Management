@@ -6,8 +6,8 @@ module.exports = {
     },
 
     'Area Management': (browser) => {
-        let pomAssigning = browser.page.pomAssigning()
-        pomAssigning.navigate()
+        let pomAssignRep = browser.page.pomAssignRep()
+        pomAssignRep.navigate()
             //login
                 .waitForElementVisible('@companyURL', 5000)
                 .waitForElementVisible('@username', 5000)

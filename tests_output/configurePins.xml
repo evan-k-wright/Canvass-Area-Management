@@ -5,15 +5,15 @@
 
   <testsuite name="configurePins"
     errors="0" failures="0" hostname="" id="" package="configurePins" skipped="0"
-    tests="0" time="0.000" timestamp="Thu, 17 Jan 2019 19:21:33 GMT">
+    tests="0" time="0.000" timestamp="Thu, 17 Jan 2019 19:22:45 GMT">
   
 
   
     <system-err>
         Error while running [Assigning / Area Management]:
 
-  TypeError: browser.page.pomAssign is not a function
-    at Object.Area Management (/Users/evanwright/Desktop/automation/salesHub/canvass/areaManagment/testing/assigning.js:9:38)
+  TypeError: browser.page.pomAssigning is not a function
+    at Object.Area Management (/Users/evanwright/Desktop/automation/salesHub/canvass/areaManagment/testing/assigning.js:9:41)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
