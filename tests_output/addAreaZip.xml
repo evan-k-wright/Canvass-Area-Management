@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
+<testsuites errors="0"
             failures="0"
-            tests="1">
+            tests="0">
 
   <testsuite name="addAreaZip"
-    errors="1" failures="0" hostname="" id="" package="addAreaZip" skipped="0"
-    tests="1" time="0.01200" timestamp="Wed, 16 Jan 2019 20:13:42 GMT">
-  
-    <testcase name="Edit Area" classname="addAreaZip" time="0.01200" assertions="0">
-    </testcase>
+    errors="0" failures="0" hostname="" id="" package="addAreaZip" skipped="0"
+    tests="0" time="0.000" timestamp="Thu, 17 Jan 2019 19:21:33 GMT">
   
 
   
     <system-err>
-        Error while running [Add Area Zip / Edit Area]:
+        Error while running [Assigning / Area Management]:
 
-  TypeError: pomAddAreaZip.click(...).keys is not a function
-    at Object.Edit Area (/Users/evanwright/Desktop/automation/salesHub/canvass/areaManagment/testing/addAreaZip.js:32:14)
+  TypeError: browser.page.pomAssign is not a function
+    at Object.Area Management (/Users/evanwright/Desktop/automation/salesHub/canvass/areaManagment/testing/assigning.js:9:38)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
