@@ -5,23 +5,9 @@
 
   <testsuite name="configurePins"
     errors="0" failures="0" hostname="" id="" package="configurePins" skipped="0"
-    tests="0" time="0.000" timestamp="Thu, 17 Jan 2019 19:34:37 GMT">
+    tests="0" time="0.000" timestamp="Thu, 17 Jan 2019 19:35:53 GMT">
   
 
-  
-    <system-err>
-      ERROR: Unable to locate element: &#34;removeRep&#34; using: css selector
-    at Page.click (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
-    at Object.Area Management (/Users/evanwright/Desktop/automation/salesHub/canvass/areaManagment/testing/assignRep.js:32:18)
-    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
-    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
-    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30
-    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
-    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
-    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
-    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
-    </system-err>
   
 
   
