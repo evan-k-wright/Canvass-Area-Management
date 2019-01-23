@@ -11,7 +11,7 @@ module.exports = {
             username: 'input[placeHolder="Username"]',
 
         //remove rep
-            area: 'span[class="area-name"]',
+            area: 'tr[data-name="test area 4"]',
             areaMang: 'a[href="/canvass/area"]', 
             fourRep: 'tr[data-id="6270"]',
             removeRep: 'a[class="remove-rep"]',
