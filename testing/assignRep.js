@@ -31,6 +31,7 @@ module.exports = {
                 .waitForElementVisible('@area', 5000)
                 .click('@area')
                 .click('@rep')
+                .waitForElementVisible('@assing', 5000)
                 .click('@assign')
                 // .waitForElementVisible('@removeRep', 5000)
                 // .click('@removeRep')
