@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="1">
 
   <testsuite name="assignRep"
-    errors="0" failures="1" hostname="" id="" package="assignRep" skipped="0"
-    tests="1" time="13.40" timestamp="Wed, 23 Jan 2019 22:12:30 GMT">
+    errors="0" failures="0" hostname="" id="" package="assignRep" skipped="0"
+    tests="1" time="43.77" timestamp="Wed, 23 Jan 2019 22:14:38 GMT">
   
-    <testcase name="Area Management" classname="assignRep" time="13.40" assertions="10">
+    <testcase name="Area Management" classname="assignRep" time="43.77" assertions="11">
 
     
 
@@ -25,7 +25,9 @@
 
     
 
-      <failure message="Timed out while waiting for element &lt;a[class=&#34;remove-rep&#34;]&gt; to be visible for 5000 milliseconds.">    at Object.Area Management (/Users/evanwright/Desktop/automation/salesHub/canvass/areaManagment/testing/assignRep.js:31:18)</failure>
+    
+
+    
 
     
     </testcase>

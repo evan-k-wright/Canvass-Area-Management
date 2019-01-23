@@ -23,7 +23,7 @@ module.exports = {
                 .click('@canvassApp')
                 .waitForElementVisible('@canvass', 5000) 
 
-            //remove rep
+            //assign rep
                 .waitForElementVisible('@areaMang', 5000)
                 .click('@areaMang')
                 .waitForElementVisible('@area', 10000)
