@@ -26,12 +26,15 @@ module.exports = {
             //assign rep
                 .waitForElementVisible('@areaMang', 5000)
                 .click('@areaMang')
-                .waitForElementVisible('@area', 10000)
+                .waitForElementVisible('@unassigned', 5000)
+                .click('@unassigned')
+                .waitForElementVisible('@area', 5000)
                 .click('@area')
-                .waitForElementVisible('@removeRep', 5000)
-                .click('@removeRep')
-                .api.pause(500)
-                .acceptAlert()
-                pomAssignRep.waitForElementNotPresent('@fourRep', 5000)
+                .click('@rep')
+                // .waitForElementVisible('@removeRep', 5000)
+                // .click('@removeRep')
+                // .api.pause(500)
+                // .acceptAlert()
+                // pomAssignRep.waitForElementNotPresent('@fourRep', 5000)
     }
 }
