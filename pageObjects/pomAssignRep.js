@@ -13,6 +13,7 @@ module.exports = {
         //assign rep
             area: 'tr[data-name="test area 4"]',
             areaMang: 'a[href="/canvass/area"]', 
+            assign: 'a[id="addRep"]',
             fourRep: 'tr[data-id="6270"]',
             removeRep: 'a[class="remove-rep"]',
 
