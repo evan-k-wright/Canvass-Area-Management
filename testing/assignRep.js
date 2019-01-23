@@ -30,7 +30,8 @@ module.exports = {
                 .click('@area')
                 .waitForElementVisible('@removeRep', 5000)
                 .click('@removeRep')
-                .api.acceptAlert()
-                .waitForElementNotPresent('@fourRep', 5000)
+                .api.pause(500)
+                .acceptAlert()
+                pomAssignRep.waitForElementNotPresent('@fourRep', 5000)
     }
 }

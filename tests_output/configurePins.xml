@@ -5,17 +5,15 @@
 
   <testsuite name="configurePins"
     errors="0" failures="0" hostname="" id="" package="configurePins" skipped="0"
-    tests="0" time="0.000" timestamp="Thu, 17 Jan 2019 19:24:11 GMT">
+    tests="0" time="0.000" timestamp="Wed, 23 Jan 2019 22:01:11 GMT">
   
 
   
     <system-err>
         Error while running [Assign Rep / Area Management]:
 
-  Error: removeRep was not found in &#34;pomAssignRep&#34;. Available elements: canvassApp,canvass,companyURL,loginButton,password,salesHub,username,area,areaMang,fourRep,removerep
-    at getElement (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:13:13)
-    at Page.waitForElementVisible (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:81:32)
-    at Object.Area Management (/Users/evanwright/Desktop/automation/salesHub/canvass/areaManagment/testing/assignRep.js:29:18)
+  TypeError: Cannot read property &#39;pause&#39; of undefined
+    at Object.Area Management (/Users/evanwright/Desktop/automation/salesHub/canvass/areaManagment/testing/assignRep.js:33:21)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
@@ -23,6 +21,8 @@
     at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
     at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
     at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
     </system-err>
   
 
