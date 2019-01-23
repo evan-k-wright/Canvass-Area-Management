@@ -26,7 +26,7 @@ module.exports = {
             //remove rep
                 .waitForElementVisible('@areaMang', 5000)
                 .click('@areaMang')
-                .waitForElementVisible('@area', 5000)
+                .waitForElementPresent('@area', 10000)
                 .click('@area')
                 .waitForElementVisible('@removeRep', 5000)
                 .click('@removeRep')

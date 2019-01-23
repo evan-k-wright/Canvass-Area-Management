@@ -5,9 +5,9 @@
 
   <testsuite name="assignRep"
     errors="0" failures="1" hostname="" id="" package="assignRep" skipped="0"
-    tests="1" time="37.78" timestamp="Wed, 23 Jan 2019 22:03:41 GMT">
+    tests="1" time="13.46" timestamp="Wed, 23 Jan 2019 22:10:34 GMT">
   
-    <testcase name="Area Management" classname="assignRep" time="37.78" assertions="9">
+    <testcase name="Area Management" classname="assignRep" time="13.46" assertions="9">
 
     
 
@@ -23,7 +23,7 @@
 
     
 
-      <failure message="Timed out while waiting for element &lt;span[class=&#34;area-name&#34;]&gt; to be visible for 5000 milliseconds.">    at Object.Area Management (/Users/evanwright/Desktop/automation/salesHub/canvass/areaManagment/testing/assignRep.js:29:18)</failure>
+      <failure message="Timed out while waiting for element &lt;tr[data-name=&#34;test area 4&#34;]&gt; to be visible for 5000 milliseconds.">    at Object.Area Management (/Users/evanwright/Desktop/automation/salesHub/canvass/areaManagment/testing/assignRep.js:29:18)</failure>
 
     
     </testcase>
