@@ -30,13 +30,14 @@ module.exports = {
                 .click('@unassigned')
                 .waitForElementVisible('@area', 5000)
                 .click('@area')
+                .waitForElementVisible('@rep4', 5000)
                 .click('@rep4')
                 .waitForElementVisible('@assign', 5000)
                 .click('@assign')
                 .waitForElementVisible('@repAssigned', 5000)
-                // .click('@back')
-                // .api.refresh()
-                // pomAssignRep.waitForElementVisible('@area', 5000)
+                .click('@back')
+                .api.refresh()
+                pomAssignRep.waitForElementVisible('@area', 5000)
 
             //unassign rep
     //             .click('@area')
