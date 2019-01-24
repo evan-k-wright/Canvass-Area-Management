@@ -15,8 +15,9 @@ module.exports = {
             areaMang: 'a[href="/canvass/area"]', 
             assign: 'a[id="addRep"]',
             back: 'a[class="back"]',
-            fourRep: 'tr[data-id="6270"]',
-            repAssigned: 'tr[data-id="6270"]',
+            fourRep: 'tr[data-id="6082"]',
+            repAssigned: 'tr[data-id="6082"]',
+            rep4: 'option[value="6082"]',
 
             //xpath
                 // assignedRep: {
@@ -26,11 +27,6 @@ module.exports = {
 
                 removeRep: {
                     selector: '//a[@class="remove-rep"]',
-                    locateStrategy: 'xpath'
-                },
-
-                rep: {
-                    selector: '//option[.="4 Rep Test Testing"]',
                     locateStrategy: 'xpath'
                 },
 
