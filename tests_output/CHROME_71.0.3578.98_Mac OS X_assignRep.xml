@@ -5,9 +5,11 @@
 
   <testsuite name="assignRep"
     errors="0" failures="0" hostname="" id="" package="assignRep" skipped="0"
-    tests="1" time="9.605" timestamp="Wed, 23 Jan 2019 23:10:07 GMT">
+    tests="1" time="11.67" timestamp="Thu, 24 Jan 2019 16:00:16 GMT">
   
-    <testcase name="Area Management" classname="assignRep" time="9.605" assertions="11">
+    <testcase name="Area Management" classname="assignRep" time="11.67" assertions="12">
+
+    
 
     
 
