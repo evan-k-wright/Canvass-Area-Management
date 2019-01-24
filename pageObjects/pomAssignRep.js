@@ -14,6 +14,7 @@ module.exports = {
             area: 'tr[data-name="test area 4"]',
             areaMang: 'a[href="/canvass/area"]', 
             assign: 'a[id="addRep"]',
+            back: 'a[class="back"]',
             fourRep: 'tr[data-id="6270"]',
             removeRep: 'a[class="remove-rep"]',
 
@@ -27,7 +28,7 @@ module.exports = {
                     selector: '//option[.="4 Rep Test Testing"]',
                     locateStrategy: 'xpath'
                 },
-                
+
                 unassigned: {
                     selector: '//a[.="Unassigned Areas"]',
                     locateStrategy: 'xpath'
