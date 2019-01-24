@@ -18,10 +18,16 @@ module.exports = {
             removeRep: 'a[class="remove-rep"]',
 
             //xpath
+                assignedRep: {
+                    selector: '(//td[.="4 Rep Test Testing"])[2]',
+                    locateStrategy: 'xpath'
+                },
+
                 rep: {
                     selector: '//option[.="4 Rep Test Testing"]',
                     locateStrategy: 'xpath'
                 },
+                
                 unassigned: {
                     selector: '//a[.="Unassigned Areas"]',
                     locateStrategy: 'xpath'

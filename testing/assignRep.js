@@ -33,6 +33,7 @@ module.exports = {
                 .click('@rep')
                 .waitForElementVisible('@assign', 5000)
                 .click('@assign')
+                .waitForElementVisible('@assignedRep', 5000)
                 // .waitForElementVisible('@removeRep', 5000)
                 // .click('@removeRep')
                 // .api.pause(500)
