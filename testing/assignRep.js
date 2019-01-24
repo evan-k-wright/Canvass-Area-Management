@@ -33,7 +33,7 @@ module.exports = {
                 .click('@rep')
                 .waitForElementVisible('@assign', 5000)
                 .click('@assign')
-                .waitForElementVisible('@assignedRep', 5000)
+                .waitForElementVisible('@repAssigned', 5000)
                 .click('@back')
                 .api.refresh()
                 pomAssignRep.waitForElementVisible('@area', 5000)
