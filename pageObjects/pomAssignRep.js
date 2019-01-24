@@ -1,5 +1,5 @@
 module.exports = {
-    url: 'http://admin.salesos.info/users/login',
+    url: 'https://admin.saleshub.io/users/login',
     elements: {
         //login
             canvassApp: 'a[class="enabled app-canvass"]',

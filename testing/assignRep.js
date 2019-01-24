@@ -38,7 +38,7 @@ module.exports = {
                 .api.refresh()
                 pomAssignRep.waitForElementVisible('@area', 5000)
 
-                //unassign rep
+            //unassign rep
                 .click('@area')
                 .waitForElementVisible('@removeRep', 5000)
                 .click('@removeRep')
