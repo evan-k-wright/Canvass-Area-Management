@@ -16,11 +16,15 @@ module.exports = {
             assign: 'a[id="addRep"]',
             back: 'a[class="back"]',
             fourRep: 'tr[data-id="6270"]',
-            removeRep: 'a[class="remove-rep"]',
 
             //xpath
                 assignedRep: {
                     selector: '(//td[.="4 Rep Test Testing"])[2]',
+                    locateStrategy: 'xpath'
+                },
+
+                removeRep: {
+                    selector: '//a[@class="remove-rep"]',
                     locateStrategy: 'xpath'
                 },
 
