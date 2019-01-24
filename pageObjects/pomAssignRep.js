@@ -26,7 +26,7 @@ module.exports = {
                 // },
 
                 removeRep: {
-                    selector: '//a[@class="remove-rep"]',
+                    selector: '//a[.="Remove"]',
                     locateStrategy: 'xpath'
                 },
 
