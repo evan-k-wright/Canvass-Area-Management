@@ -42,7 +42,7 @@ module.exports = {
                 .click('@area')
                 .waitForElementVisible('@removeRep', 5000)
                 .click('@removeRep')
-                .api.pause(500)
+                .api.pause(10000)
                 .acceptAlert()
                 pomAssignRep.click('@back')
                 .api.refresh()
