@@ -1,3 +1,6 @@
+const data = require('./data')
+const selectors = require('./selectors')
+
 const addAreaZip = (browser, data) => {
     browser
          //login
