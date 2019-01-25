@@ -17,7 +17,7 @@ module.exports = {
             back: 'a[class="back"]',
             fourRep: 'tr[data-id="6082"]',
             repAssigned: 'tr[data-id="6082"]',
-            rep4: 'option[value="6082"]',
+            rep4: 'option[value="6270"]',
             a1Evan: 'option[value="127"]',
 
             //xpath
