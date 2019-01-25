@@ -53,9 +53,9 @@ module.exports = {
                 .api.useCss()
                 .moveToElement(selectors.remove, 0, 0)
                 .mouseButtonClick(selectors.remove)
-    //             .acceptAlert()
-    //             pomAssignRep.click('@back')
-    //             .api.refresh()
-    //             pomAssignRep.waitForElementNotPresent('@fourRep', 5000)
+                .acceptAlert()
+                pomAssignRep.click('@back')
+                .api.refresh()
+                pomAssignRep.waitForElementNotPresent('@fourRep', 5000)
      }
 }
