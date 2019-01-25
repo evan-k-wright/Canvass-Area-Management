@@ -30,6 +30,6 @@ const addAreaZip = (browser, data) => {
 }
 
 
-module.exports ={
+module.exports = {
 addAreaZip : addAreaZip
 }
