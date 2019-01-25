@@ -18,6 +18,7 @@ module.exports = {
             fourRep: 'tr[data-id="6082"]',
             repAssigned: 'tr[data-id="6082"]',
             rep4: 'option[value="6082"]',
+            a1Evan: 'option[value="127"]',
 
             //xpath
                 // assignedRep: {
