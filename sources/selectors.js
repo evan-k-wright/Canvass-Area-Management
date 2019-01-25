@@ -14,4 +14,5 @@ module.exports = {
     //add area zip
         areaMang: 'a[href="/canvass/area"]',
         drawAreaZip: 'a[id="drawZipArea"]',
+        a1Evan: 'option[value="127"]',
 }
