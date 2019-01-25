@@ -25,7 +25,7 @@ const addAreaZip = (browser, data) => {
          .click(selectors.a1Evan)
          .waitForElementVisible(selectors.drawAreaZip, 5000)
          .click(selectors.drawAreaZip)
-         .setAlertText("84043")
+         .setAlertText(["8", "4", "0", "4", "3"])
 }
 
 
