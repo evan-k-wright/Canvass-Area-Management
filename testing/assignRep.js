@@ -47,7 +47,7 @@ module.exports = {
                 .waitForElementVisible('@removeRep', 5000)
                 .api.moveTo('@removeRep', 0, 0)
                 .mouseButtonClick('@removeRep')
-    //             .api.pause(10000)
+                .api.pause(10000)
     //             .acceptAlert()
     //             pomAssignRep.click('@back')
     //             .api.refresh()
