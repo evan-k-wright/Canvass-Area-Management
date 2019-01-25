@@ -1,4 +1,4 @@
-const data = require('./data')
+//const data = require('./data')
 const selectors = require('./selectors')
 
 const addAreaZip = (browser, data) => {
