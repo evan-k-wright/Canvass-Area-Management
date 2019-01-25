@@ -15,8 +15,8 @@ module.exports = {
             areaMang: 'a[href="/canvass/area"]', 
             assign: 'a[id="addRep"]',
             back: 'a[class="back"]',
-            fourRep: 'tr[data-id="6082"]',
-            repAssigned: 'tr[data-id="6082"]',
+            fourRep: 'tr[data-id="6270"]',
+            repAssigned: 'tr[data-id="6270"]',
             rep4: 'option[value="6270"]',
             a1Evan: 'option[value="127"]',
 
