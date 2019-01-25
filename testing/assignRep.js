@@ -1,6 +1,10 @@
 const data = require('../sources/data')
+const selectors = require('../sources/selectors')
 
 module.exports = {
+    beforeEach: broswer => {
+        browser.url('http://admin.salesos.info/users/login')
+    },
     after: browser => {
         browser
     },
@@ -46,9 +50,9 @@ module.exports = {
             //unassign rep
                 .click('@area4')
                 .waitForElementVisible('@remove', 5000)
-                .api.useXpath()
-                .moveToElement('@remove', 0, 0)
-                .mouseButtonClick('@remove')
+                .api.useCss()
+                .moveToElement(selectors.remove, 0, 0)
+                .mouseButtonClick(selectors.remove)
     //             .acceptAlert()
     //             pomAssignRep.click('@back')
     //             .api.refresh()
