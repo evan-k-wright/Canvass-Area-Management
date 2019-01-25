@@ -28,11 +28,12 @@ module.exports = {
                 .waitForElementVisible(selectors.canvass, 5000) 
 
             //add area
-                // .waitForElementVisible('@areaMang', 5000)
-                // .click('@areaMang')
-                // .waitForElementVisible('@drawAreaZip', 5000)
-                // .api.pause(1000)
-                // pomAddAreaZip.click('@drawAreaZip')
+                .waitForElementVisible(selectors.areaMang, 5000)
+                .click(selectors.areaMang)
+                .waitForElementVisible(selectors.drawAreaZip, 5000)
+                //.api.pause(1000)
+                .click(selectors.drawAreaZip)
+                .setAlertText(data.zipCode)
                 
     }
 }
