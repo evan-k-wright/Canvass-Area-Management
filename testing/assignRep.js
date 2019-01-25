@@ -38,7 +38,8 @@ module.exports = {
                 .waitForElementPresent('@repAssigned', 5000)
                 .click('@back')
                 .api.refresh()
-                pomAssignRep.click('@a1Evan')
+                pomAssignRep.waitForElementPresent('@a1Evan', 5000)
+                .click('@a1Evan')
                 .waitForElementVisible('@area4', 5000)
 
             //unassign rep
