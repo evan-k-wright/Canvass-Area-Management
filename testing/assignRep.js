@@ -6,7 +6,7 @@ module.exports = {
         browser.url('http://admin.salesos.info/users/login')
     },
     after: browser => {
-        browser
+        browser.end()
     },
 
     'Area Management': (browser) => {
