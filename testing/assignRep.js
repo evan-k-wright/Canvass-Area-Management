@@ -2,7 +2,7 @@ const data = require('../sources/data')
 const selectors = require('../sources/selectors')
 
 module.exports = {
-    beforeEach: broswer => {
+    beforeEach: browser => {
         browser.url('http://admin.salesos.info/users/login')
     },
     after: browser => {
