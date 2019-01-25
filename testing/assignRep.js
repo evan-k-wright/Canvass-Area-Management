@@ -42,9 +42,10 @@ module.exports = {
                 .waitForElementVisible('@area4', 5000)
 
             //unassign rep
-                // .click('@area4')
-                // .waitForElementVisible('@removeRep', 5000)
-                // .click('@removeRep')
+                .click('@area4')
+                .waitForElementVisible('@removeRep', 5000)
+                .api.moveTo('@removeRep', 0, 0)
+                .mouseButtonClick('@removeRep')
     //             .api.pause(10000)
     //             .acceptAlert()
     //             pomAssignRep.click('@back')
