@@ -46,7 +46,8 @@ module.exports = {
             //unassign rep
                 .click('@area4')
                 .waitForElementVisible('@remove', 5000)
-                .api.moveToElement('@remove', 0, 0)
+                .api.useXpath()
+                .moveToElement('@remove', 0, 0)
                 .mouseButtonClick('@remove')
     //             .acceptAlert()
     //             pomAssignRep.click('@back')
