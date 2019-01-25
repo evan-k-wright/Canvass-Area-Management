@@ -2,7 +2,7 @@ const data = require('../sources/data')
 
 module.exports = {
     after: browser => {
-        browser.end()
+        browser
     },
 
     'Area Management': (browser) => {
@@ -47,7 +47,6 @@ module.exports = {
                 .waitForElementVisible('@removeRep', 5000)
                 .api.moveTo('@removeRep', 0, 0)
                 .mouseButtonClick('@removeRep')
-                .api.pause(10000)
     //             .acceptAlert()
     //             pomAssignRep.click('@back')
     //             .api.refresh()

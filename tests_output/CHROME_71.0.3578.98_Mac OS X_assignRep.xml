@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
-            failures="0"
+<testsuites errors="1"
+            failures="1"
             tests="1">
 
   <testsuite name="assignRep"
-    errors="0" failures="0" hostname="" id="" package="assignRep" skipped="0"
-    tests="1" time="12.75" timestamp="Fri, 25 Jan 2019 16:44:28 GMT">
+    errors="1" failures="1" hostname="" id="" package="assignRep" skipped="0"
+    tests="1" time="14.00" timestamp="Fri, 25 Jan 2019 16:47:19 GMT">
   
-    <testcase name="Area Management" classname="assignRep" time="12.75" assertions="16">
+    <testcase name="Area Management" classname="assignRep" time="14.00" assertions="10">
 
     
 
@@ -25,24 +25,26 @@
 
     
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+      <failure message="Timed out while waiting for element &lt;tr[data-name=&#34;test area 4&#34;]&gt; to be present for 5000 milliseconds.">    at Object.Area Management (/Users/evanwright/Desktop/automation/salesHub/canvass/areaManagment/testing/assignRep.js:32:18)</failure>
 
     
     </testcase>
   
 
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;option[value=&#34;127&#34;]&#34; using: css selector
+    at Page.click (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.Area Management (/Users/evanwright/Desktop/automation/salesHub/canvass/areaManagment/testing/assignRep.js:29:18)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    </system-err>
   
 
   
