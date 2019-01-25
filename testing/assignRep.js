@@ -26,6 +26,7 @@ module.exports = {
             //assign rep
                 .waitForElementVisible('@areaMang', 5000)
                 .click('@areaMang')
+                .waitForElementPresent('a1Evan', 5000)
                 .click('@a1Evan')
                 .waitForElementVisible('@unassigned', 5000)
                 .click('@unassigned')
