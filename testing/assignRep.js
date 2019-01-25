@@ -2,7 +2,7 @@ const data = require('../sources/data')
 
 module.exports = {
     after: browser => {
-        browser
+        browser.end()
     },
 
     'Area Management': (browser) => {
@@ -38,7 +38,8 @@ module.exports = {
                 .waitForElementPresent('@repAssigned', 5000)
                 .click('@back')
                 .api.refresh()
-                pomAssignRep.waitForElementVisible('@area4', 5000)
+                pomAssignRep.click('@a1Evan')
+                .waitForElementVisible('@area4', 5000)
 
             //unassign rep
                 // .click('@area4')

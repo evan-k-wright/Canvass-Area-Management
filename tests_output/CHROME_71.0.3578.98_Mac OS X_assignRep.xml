@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="1">
 
   <testsuite name="assignRep"
-    errors="0" failures="1" hostname="" id="" package="assignRep" skipped="0"
-    tests="1" time="17.27" timestamp="Fri, 25 Jan 2019 16:31:46 GMT">
+    errors="0" failures="0" hostname="" id="" package="assignRep" skipped="0"
+    tests="1" time="34.77" timestamp="Fri, 25 Jan 2019 16:35:26 GMT">
   
-    <testcase name="Area Management" classname="assignRep" time="17.27" assertions="14">
+    <testcase name="Area Management" classname="assignRep" time="34.77" assertions="14">
 
     
 
@@ -33,7 +33,7 @@
 
     
 
-      <failure message="Timed out while waiting for element &lt;tr[data-name=&#34;test area 4&#34;]&gt; to be present for 5000 milliseconds.">    at Object.Area Management (/Users/evanwright/Desktop/automation/salesHub/canvass/areaManagment/testing/assignRep.js:41:30)</failure>
+    
 
     
     </testcase>
