@@ -28,8 +28,8 @@ module.exports = {
                 .click('@areaMang')
                 .waitForElementVisible('@unassigned', 5000)
                 .click('@unassigned')
-                .waitForElementVisible('@area', 5000)
-                .click('@area')
+                .waitForElementVisible('@area4', 5000)
+                .click('@area4')
                 .waitForElementVisible('@rep4', 5000)
                 .click('@rep4')
                 .waitForElementVisible('@assign', 5000)
@@ -37,10 +37,10 @@ module.exports = {
                 .waitForElementPresent('@repAssigned', 5000)
                 .click('@back')
                 .api.refresh()
-                pomAssignRep.waitForElementVisible('@area', 5000)
+                pomAssignRep.waitForElementVisible('@area4', 5000)
 
             //unassign rep
-                .click('@area')
+                .click('@area4')
                 .waitForElementVisible('@removeRep', 5000)
                 .click('@removeRep')
     //             .api.pause(10000)

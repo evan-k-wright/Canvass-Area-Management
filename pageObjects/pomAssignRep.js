@@ -11,7 +11,7 @@ module.exports = {
             username: 'input[placeHolder="Username"]',
 
         //assign rep
-            area: 'tr[data-name="test area 4"]',
+            area4: 'tr[data-name="test area 4"]',
             areaMang: 'a[href="/canvass/area"]', 
             assign: 'a[id="addRep"]',
             back: 'a[class="back"]',
