@@ -6,6 +6,7 @@ module.exports = {
 
     //add area by zip
         addAreaName:'Delete Area',
+        navyBlue: '(//span[@data-color="#004691"])[2]',
         zipCode: '84043',
 
     //edit area
