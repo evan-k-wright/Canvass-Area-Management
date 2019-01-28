@@ -5,7 +5,7 @@ module.exports = {
         password: 'Dvlop-qa',
 
     //add area by zip
-        addAreaName:'84043 - Testing',
+        addAreaName:'Delete Area',
         zipCode: '84043',
 
     //edit area

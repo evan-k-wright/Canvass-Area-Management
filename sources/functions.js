@@ -25,7 +25,11 @@ const addAreaZip = (browser, data) => {
          .click(selectors.a1Evan)
          .waitForElementVisible(selectors.drawAreaZip, 5000)
          .click(selectors.drawAreaZip)
-         .setAlertText("84043")
+
+         //this is a pause to be able to type in the zipcode
+         .pause(5000)
+         .acceptAlert()
+         
 }
 
 
