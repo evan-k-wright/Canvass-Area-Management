@@ -15,6 +15,6 @@ module.exports = {
         a1Evan: 'option[value="127"]',
         areaMang: 'a[href="/canvass/area"]',
         drawAreaZip: 'a[id="drawZipArea"]',
-        navyBlue: '(//span[@data-color="#004691"])[2]',
+        /*xPath*/navyBlue: '(//span[@data-color="#004691"])[2]',
         saveArea: 'a[id="createArea"]',
 }
