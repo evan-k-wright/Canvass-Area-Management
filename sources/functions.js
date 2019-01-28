@@ -27,7 +27,7 @@ const addAreaZip = (browser, data) => {
             .click(selectors.drawAreaZip)
 
             //this is a pause to be able to type in the zipcode: 84043
-            .pause(5000)
+            .pause(7000)
             .acceptAlert()
             .useXpath()
             .click(selectors.navyBlue)
