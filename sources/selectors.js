@@ -12,7 +12,9 @@ module.exports = {
         remove: 'a[class="remove-rep"]',
 
     //add area zip
+        a1Evan: 'option[value="127"]',
         areaMang: 'a[href="/canvass/area"]',
         drawAreaZip: 'a[id="drawZipArea"]',
-        a1Evan: 'option[value="127"]',
+        navyBlue: '(//span[@data-color="#004691"])[2]',
+        saveArea: 'a[id="createArea"]',
 }
