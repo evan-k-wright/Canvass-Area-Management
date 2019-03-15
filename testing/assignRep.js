@@ -3,7 +3,7 @@ const selectors = require('../sources/selectors')
 
 module.exports = {
     after: browser => {
-        browser.end()
+        //browser.end()
     },
 
     'Area Management': (browser) => {
@@ -47,12 +47,13 @@ module.exports = {
              //unassign rep
                 .click('@autoTestArea')
                 .waitForElementVisible('@remove', 5000)
-                .api.useCss()
-                .moveToElement(selectors.remove, 0, 0)
-                .mouseButtonClick(selectors.remove)
-                .acceptAlert()
-                pomAssignRep.click('@back')
-                .api.refresh()
-                pomAssignRep.waitForElementNotPresent('@autoTest', 5000)
+                .click('@removeRep')
+                //.api.useCss()
+                //.moveToElement(selectors.remove, 0, 0)
+                //.mouseButtonClick(selectors.remove)
+                .api.acceptAlert()
+                //pomAssignRep.click('@back')
+                //.api.refresh()
+                //pomAssignRep.waitForElementNotPresent('@autoTest', 5000)
      }
 }

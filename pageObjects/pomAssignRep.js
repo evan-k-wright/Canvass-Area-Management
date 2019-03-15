@@ -19,6 +19,7 @@ module.exports = {
             repAssigned: 'tr[data-id="6088"]',
             autoTest: 'option[value="6088"]',
             evansGroup: 'option[value="209"]',
+            removeRep: 'a[class="remove-rep"]',
 
             //xpath
                 // assignedRep: {
