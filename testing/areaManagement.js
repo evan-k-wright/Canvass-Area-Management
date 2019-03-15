@@ -27,9 +27,8 @@ module.exports = {
                 .waitForElementVisible('@canvassArea', 5000)
                 .click('@canvassArea')
                 .waitForElementVisible('@areas', 5000)
-                
-                .click('@000Testing')
-                .waitForElementVisible('@evansArea', 10000)
+                .click('@evansGroup')
+                .waitForElementVisible('@evansArea', 5000)
                 .click('@evansArea')
                 .waitForElementPresent('@areaTitle', 5000)
     }

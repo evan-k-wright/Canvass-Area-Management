@@ -13,7 +13,7 @@ module.exports = {
         //select area
             areaTitle: 'h1[id="areaName"]', 
             canvassArea: 'a[href="/canvass/area"]',
-            "000Testing": 'option[value="127"]',
+            evansGroup: 'option[value="209"]',
             evansArea: 'tr[data-name="evan\'s area"]',
 
             //xpath
