@@ -17,7 +17,7 @@ module.exports = {
             back: 'a[class="back"]',
             fourRep: 'tr[data-id="6270"]',
             repAssigned: 'tr[data-id="6270"]',
-            rep4: 'option[value="6270"]',
+            autoTest: 'option[value="6088"]',
             evansGroup: 'option[value="209"]',
 
             //xpath
