@@ -45,7 +45,7 @@ module.exports = {
                  .waitForElementVisible('@autoTestArea', 5000)
 
              //unassign rep
-                 .click('@area4')
+                 .click('@autoTestArea')
                  .waitForElementVisible('@remove', 5000)
                  .api.useCss()
                  .moveToElement(selectors.remove, 0, 0)
