@@ -5,9 +5,9 @@ module.exports = {
         browser.end()
     },
 
-    'Area Management': (browser) => {
-        let pomAreaManagement = browser.page.pomAreaManagement()
-        pomAreaManagement.navigate()
+    'Select Area': (browser) => {
+        let pomSelectArea = browser.page.pomSelectArea()
+        pomSelectArea.navigate()
             //login
                 .waitForElementVisible('@companyURL', 5000)
                 .waitForElementVisible('@username', 5000)
