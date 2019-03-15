@@ -44,15 +44,15 @@ module.exports = {
                  .click('@evansGroup')
                  .waitForElementVisible('@autoTestArea', 5000)
 
-            // //unassign rep
-            //     .click('@area4')
-            //     .waitForElementVisible('@remove', 5000)
-            //     .api.useCss()
-            //     .moveToElement(selectors.remove, 0, 0)
-            //     .mouseButtonClick(selectors.remove)
-            //     .acceptAlert()
-            //     pomAssignRep.click('@back')
-            //     .api.refresh()
-            //     pomAssignRep.waitForElementNotPresent('@fourRep', 5000)
+             //unassign rep
+                 .click('@area4')
+                 .waitForElementVisible('@remove', 5000)
+                 .api.useCss()
+                 .moveToElement(selectors.remove, 0, 0)
+                 .mouseButtonClick(selectors.remove)
+                 .acceptAlert()
+                 pomAssignRep.click('@back')
+                 .api.refresh()
+                 pomAssignRep.waitForElementNotPresent('@autoTest', 5000)
      }
 }
