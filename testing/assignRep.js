@@ -46,12 +46,12 @@ module.exports = {
 
              //unassign rep
                 .click('@autoTestArea')
-                .waitForElementVisible('@remove', 5000)
-                .click('@removeRep')
-                //.api.useCss()
-                //.moveToElement(selectors.remove, 0, 0)
-                //.mouseButtonClick(selectors.remove)
-                .api.acceptAlert()
+                .waitForElementPresent('@remove', 7000)
+                //.click('@remove')
+                .api.useCss()
+                .moveToElement(selectors.remove, 0, 0)
+                pomAssignRep.click(selectors.remove)
+                //.api.acceptAlert()
                 //pomAssignRep.click('@back')
                 //.api.refresh()
                 //pomAssignRep.waitForElementNotPresent('@autoTest', 5000)
