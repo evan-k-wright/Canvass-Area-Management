@@ -1,17 +1,14 @@
 const data = require('../sources/data')
-const selectors = require('../sources/selectors')
+//const selectors = require('../sources/selectors')
 
 module.exports = {
-    beforeEach: browser => {
-        //browser.url('http://admin.salesos.info/users/login')
-    },
     after: browser => {
         browser.end()
     },
 
     'Area Management': (browser) => {
-        let pomAssignRep = browser.page.pomAssignRep();
-        pomAssignRep.navigate()
+        let assignRep = browser.page.assignRep();
+        assignRep.navigate()
             //login
                 .waitForElementVisible('@companyURL', 5000)
                 .waitForElementVisible('@username', 5000)
