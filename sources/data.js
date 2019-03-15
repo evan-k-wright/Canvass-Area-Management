@@ -2,7 +2,7 @@ module.exports = {
     //login
         company: 'dvlop',
         username: 'evan@canvass.com',
-        password: 'Dvlop-qa',
+        password: 'qa123',
 
     //add area by zip
         addAreaName:'Delete Area',
