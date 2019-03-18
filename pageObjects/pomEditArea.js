@@ -16,6 +16,12 @@ module.exports = {
         back: 'a[class="back"]',
         edit: 'a[class="edit"]',
         newAreaName: 'tr[data-name="test area 4"]',
-        unassigned: '//a[.="Unassigned Areas"]',
+        
+
+        //xpath
+        unassigned: { 
+            selector: '//a[.="Unassigned Areas"]',
+            locateStratagy: 'xpath'
+        }, 
     }
 }

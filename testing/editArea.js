@@ -26,7 +26,7 @@ module.exports = {
             //edit area
                 .waitForElementVisible('@areaMang', 5000)
                 .click('@areaMang')
-                .waitForElementVisible('@unassigned')
+                .waitForElementPresent('@unassigned', 5000)
                 .click('@unassigned')
                 //.waitForElementVisible('@area', 5000)
                 //.click('@area')
