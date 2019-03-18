@@ -12,9 +12,9 @@ module.exports = {
 
         //pins
             canvassArea: 'a[href="/canvass/area"]',
-            followUpPin: 'div[aria-label="1489 N 2400 ST W , LEHI, UT 84043"]',
+            followUpPin: 'div[aria-label="578 E 2700  S , BOUNTIFUL, UT 84010"]',
             pinsList: 'div[id="expandPinsList"]',
-            salePin: 'div[aria-label="2410 W 1400 ST N , LEHI, UT 84043"]',
+            salePin: 'div[aria-label="209 W CENTER ST , CITY OF NORTH SALT LAKE, UT 84054"]',
             updatePins: 'a[id="loadPins"]',
 
             //xpath
