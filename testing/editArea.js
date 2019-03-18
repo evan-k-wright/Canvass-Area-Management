@@ -26,10 +26,10 @@ module.exports = {
             //edit area
                 .waitForElementVisible('@areaMang', 5000)
                 .click('@areaMang')
-                .waitForElementPresent('@unassigned', 5000)
+                .waitForElementVisible('@unassigned', 5000)
                 .click('@unassigned')
-                //.waitForElementVisible('@area', 5000)
-                //.click('@area')
+                .waitForElementVisible('@area', 5000)
+                .click('@area')
                 // .waitForElementPresent('@edit', 5000)
                 // .api.pause(500)
                 // pomEditArea.click('@edit')

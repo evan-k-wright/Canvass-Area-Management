@@ -15,13 +15,12 @@ module.exports = {
         areaMang: 'a[href="/canvass/area"]',
         back: 'a[class="back"]',
         edit: 'a[class="edit"]',
-        newAreaName: 'tr[data-name="test area 4"]',
+        newAreaName: 'tr[data-name="auto test area"]',
         
-
         //xpath
         unassigned: { 
             selector: '//a[.="Unassigned Areas"]',
-            locateStratagy: 'xpath'
+            locateStrategy: 'xpath'
         }, 
     }
 }
