@@ -9,5 +9,5 @@ module.exports = {
         zipCode: '84043',
 
     //edit area
-        newName: 'Test Area 4',
+        newName: 'Automation Area',
     }
