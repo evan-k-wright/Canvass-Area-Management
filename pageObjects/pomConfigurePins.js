@@ -19,12 +19,12 @@ module.exports = {
 
             //xpath
                 followUp: {
-                    selector: '(//input[@type="checkbox"])[69]',
+                    selector: '(//input[@type="checkbox"])[71]',
                     locateStrategy: 'xpath'
                 },
 
                 sale: {
-                    selector: '(//input[@type="checkbox"])[51]',
+                    selector: '(//input[@type="checkbox"])[53]',
                     locateStrategy: 'xpath'
                 },
 
