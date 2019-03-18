@@ -11,11 +11,11 @@ module.exports = {
             username: 'input[placeHolder="Username"]',
 
         //edit area
-        area: 'tr[data-name="4 rep test"]',
+        area: 'tr[data-name="auto test area"]',
         areaMang: 'a[href="/canvass/area"]',
         back: 'a[class="back"]',
         edit: 'a[class="edit"]',
-        newAreaName: 'tr[data-name="auto test area"]',
+        newAreaName: 'tr[data-name="automation area"]',
         
         //xpath
         unassigned: { 
