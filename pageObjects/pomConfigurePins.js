@@ -14,7 +14,7 @@ module.exports = {
             canvassArea: 'a[href="/canvass/area"]',
             notHomePin: 'div[aria-label="2376 W 1540 ST N , LEHI, UT 84043"]',
             pinsList: 'div[id="expandPinsList"]',
-            salePin: 'div[aria-label="209 W CENTER ST , CITY OF NORTH SALT LAKE, UT 84054"]',
+            salePin: 'div[aria-label="1640 N 2400 ST W , LEHI, UT 84043"]',
             updatePins: 'a[id="loadPins"]',
 
             //xpath

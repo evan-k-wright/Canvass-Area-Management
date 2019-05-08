@@ -34,12 +34,12 @@ module.exports = {
                 .click('@followUp')
                 .waitForElementVisible('@updatePins', 5000)
                 .click('@updatePins')
-                //.waitForElementVisible('@salePin', 5000)
+                .waitForElementVisible('@salePin', 5000)
                 .waitForElementVisible('@notHomePin', 5000)
-                //.click('@sale')
-                //.click('@followUp')
-                //.click('@updatePins')
-                //.api.pause(500)
-                //.acceptAlert()
+                .click('@sale')
+                .click('@followUp')
+                .click('@updatePins')
+                .api.pause(500)
+                .acceptAlert()
     }
 }
