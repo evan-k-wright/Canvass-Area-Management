@@ -18,7 +18,7 @@ module.exports = {
             updatePins: 'a[id="loadPins"]',
 
             //xpath
-                followUp: {
+                notHome: {
                     selector: '(//input[@type="checkbox"])[2]',
                     locateStrategy: 'xpath'
                 },
